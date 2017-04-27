@@ -1,0 +1,5 @@
+#8 8 * * * bash /code/vol/pstockAuto/pstockAuto.sh  >> /code/vol/pstockAuto/MonDriver.log 2>&1
+#8 18 * * * bash /code/vol/pstockAuto/sbin/baklog.sh >> /code/jobs.log 2>&1
+#8 8 * * * /usr/local/bin/python /code/vol/pstockAuto/stockApp/mytushare/MonDriver.py >> /code/vol/pstockAuto/MonDriver.log 2>&1
+#*/1 * * * * echo "Hello world" >> /code/echo_test.log 2>&1
+#*/1 * * * * /usr/local/bin/python test.py >> /home/app/cron.log 2>&1

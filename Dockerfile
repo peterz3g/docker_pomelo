@@ -19,6 +19,7 @@ apt-get install -y tree && \
 apt-get install -y telnet && \
 apt-get install -y libmysqld-dev && \
 apt-get install -y --force-yes  net-tools && \
+apt-get install -y --force-yes  sysstat && \
 ln -s /usr/bin/nodejs /usr/bin/node && \
 apt-get install -y cron && \
 apt-get install -y vim && \
